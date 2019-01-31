@@ -23,3 +23,7 @@ const urlWithReplacedParam = setUrlParameter(url, key, value);
 console.log(urlWithReplacedParam); // result is: 'https://www.example.com/index.html?aaa=fff&ccc=ddd'
 
 ```
+
+## Information
+
+Based on the idee from: https://blog.bitscry.com/2018/08/17/getting-and-setting-url-parameters-with-javascript/
