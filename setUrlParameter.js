@@ -12,7 +12,7 @@ const setParam = (urlQueryString, newParam, encodedValue, encodedKey) => {
         return '?' + newParam;
     } 
     return urlQueryString + '&' + newParam;
-}
+};
 
 const setUrlParameter = (url, key, value) => {
     const encodedKey = encodeURIComponent(key);
@@ -34,6 +34,6 @@ const setUrlParameter = (url, key, value) => {
     }
 
     return baseUrl + params;
-}
+};
 
 module.exports = setUrlParameter;
