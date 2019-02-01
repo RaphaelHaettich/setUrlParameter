@@ -1,6 +1,6 @@
 {
   "name": "seturlparameter",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "set an url parameter",
   "main": "setUrlParameter.js",
   "scripts": {
@@ -25,5 +25,5 @@
   "bugs": {
     "url": "https://github.com/RaphaelHaettich/setUrlParameter/issues"
   },
-  "homepage": "https://github.com/RaphaelHaettich/setUrlParameter#readme",
+  "homepage": "https://github.com/RaphaelHaettich/setUrlParameter#readme"
 }
