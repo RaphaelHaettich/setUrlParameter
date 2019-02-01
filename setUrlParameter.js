@@ -15,6 +15,9 @@ const setParam = (urlQueryString, newParam, encodedValue, encodedKey) => {
 };
 
 const setUrlParameter = (url, key, value) => {
+    if (!url || !key || !value) {
+        return undefined;
+    }
     const encodedKey = encodeURIComponent(key);
     const encodedValue = encodeURIComponent(value);
 

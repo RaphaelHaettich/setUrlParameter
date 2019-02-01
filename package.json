@@ -4,12 +4,13 @@
   "description": "set an url parameter",
   "main": "setUrlParameter.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "ava",
     "build": "google-closure-compiler --js=setUrlParameter.js --js_output_file=setUrlParameter.min.js"
   },
   "author": "Raphael Hättich",
   "license": "MIT",
   "devDependencies": {
+    "ava": "^1.2.0",
     "google-closure-compiler": "^20190121.0.0"
   },
   "repository": {
