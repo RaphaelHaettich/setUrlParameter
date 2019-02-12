@@ -1,6 +1,6 @@
 {
   "name": "seturlparameter",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "set an url parameter",
   "main": "setUrlParameter.min.js",
   "scripts": {
